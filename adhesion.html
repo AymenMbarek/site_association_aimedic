@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adhésion 2024</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: darkcyan;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .form-group textarea {
+            width: 100%;
+            height: 100px;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .info-section {
+            margin-top: 20px;
+        }
+
+        .info-section h2 {
+            text-align: left;
+        }
+
+        .info-section p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Adhésion 2024</h1>
+        <p>L’association ouvre l’inscription à toute personne intéressée par l’ingénierie, la recherche scientifique ou l’innovation technologique.</p>
+        <h2>Formulaire d'adhésion</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="civilite">Civilité (*)</label>
+                <select id="civilite" name="civilite" required>
+                    <option value="M.">M.</option>
+                    <option value="Mme.">Mme.</option>
+                    <option value="Mlle.">Mlle.</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="nom-prenom">Nom et Prénom (*)</label>
+                <input type="text" id="nom-prenom" name="nom-prenom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Adresse E-mail (*)</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe (*)</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirmer le mot de passe (*)</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="form-group">
+                <label for="telephone">Téléphone (*)</label>
+                <input type="tel" id="telephone" name="telephone" required>
+            </div>
+            <div class="form-group">
+                <label for="cin-passport">Numéro de CIN/Passeport (*)</label>
+                <input type="text" id="cin-passport" name="cin-passport" required>
+            </div>
+            <div class="form-group">
+                <label for="bureau">Bureau ARSII</label>
+                <select id="bureau" name="bureau">
+                    <option value="national-sousse">Bureau National Sousse</option>
+                    <option value="other">Autre</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="situation">Situation Professionnelle</label>
+                <select id="situation" name="situation">
+                    <option value="etudiant">Etudiant</option>
+                    <option value="enseignant">Enseignant</option>
+                    <option value="autre">Autre</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="cycle">Cycle</label>
+                <input type="text" id="cycle" name="cycle">
+            </div>
+            <div class="form-group">
+                <label for="niveau">Niveau</label>
+                <input type="text" id="niveau" name="niveau">
+            </div>
+            <div class="form-group">
+                <label for="specialite">Spécialité</label>
+                <input type="text" id="specialite" name="specialite">
+            </div>
+            <div class="form-group">
+                <label for="etablissement">Etablissement</label>
+                <input type="text" id="etablissement" name="etablissement">
+            </div>
+            <button type="submit" class="btn">Devenir Membre</button>
+        </form>
+
+        <div class="info-section">
+            <h2>ADHÉRER ARSII POUR BENÉFICIER</h2>
+            <p>Réduction des frais de participation aux événements organisés par l’ARSII (Journées scientifiques, Formations, Compétitions, etc.).</p>
+            <p>Priorité d’accès aux événements gratuits.</p>
+            <p>Attestation de participation de tout événement assisté.</p>
+            <p>Accès prioritaire à toutes les opportunités publiées (Offres de Stage, PFE, bourses, etc.).</p>
+            <p>Possibilité de prise en charge dans des manifestations scientifiques.</p>
+            <p>Possibilité d’adhérer au bureau exécutif d’ARSII.</p>
+        </div>
+
+        <div class="info-section">
+            <h2>MODALITÉ D’INSCRIPTION</h2>
+            <p>L’association ouvre l’inscription à toute personne intéressée par l’informatique, l’ingénierie, la recherche scientifique ou l’innovation technologique.</p>
+            <p>Pour adhérer, il suffit de :</p>
+            <ol>
+                <li>Remplir le formulaire.</li>
+                <li>Payer la cotisation annuelle.</li>
+            </ol>
+            <h3>COTISATION ANNUELLE</h3>
+            <p>20 DT : Étudiants</p>
+            <p>40 DT : Enseignants ou fonctionnaires</p>
+            <h3>MODALITÉ DE PAYEMENT</h3>
+            <p>Par Virement au CCB RIB: TN xx xxxx xxxx xxxx xxxx xxxx</p>
+            <p>Par chèque (libellé ARSII).</p>
+            <p>En espèces (contacter le comité d’adhésion).</p>
+        </div>
+
+        <div class="info-section">
+            <h2>PLUS D’INFORMATIONS</h2>
+            <p>Bureau : +216 11 111 111</p>
+            <p>Email : association@aimedic.com | association@aimedic.org</p>
+            
+        </div>
+    </div>
+</body>
+
+</html>
